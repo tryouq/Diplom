@@ -1,0 +1,111 @@
+.second_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    
+    @media only screen and (max-width: 900px) {
+        padding-top: 40px;
+    }
+}
+
+.second_info_info{
+    padding-top: 30px;
+    font-size: 23px;
+    
+    @media only screen and (max-width: 780px) {
+        font-size: 14px;
+    }
+}
+
+.second-cards{
+    padding-top: 100px;
+    display: grid;
+    
+    justify-content: center;
+    
+   
+}
+
+.second-cards_more{
+    display: grid;         /* new; nested grid container */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 70px;
+    padding-bottom: 150px;
+
+    @media only screen and (max-width: 959px) {
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    }
+    
+}
+
+.second-cards_1{
+    display: block;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    
+
+    &:hover{
+        background-color: #0BBF83;
+        transition: opacity 0.4s ease-in;
+        cursor: pointer;
+    }
+}
+
+.second-cards_2{
+    display: block;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+
+    &:hover{
+        background-color: #0BBF83;
+        transition: opacity 0.4s ease-in;
+        cursor: pointer;
+    }
+}
+
+.second-cards_3{
+    display: block;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+
+    &:hover{
+        background-color: #0BBF83;
+        transition: opacity 0.4s ease-in;
+        cursor: pointer;
+    }
+}
+
+.second-cards_4{
+    display: block;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+
+    &:hover{
+        background-color: #0BBF83;
+        transition: opacity 0.4s ease-in;
+        cursor: pointer;
+    }
+}
+
+.KVARTITY{
+    padding-top: 150px;
+    text-align: center;
+}
