@@ -1,0 +1,27 @@
+.feedback{
+    padding-bottom: 180px;
+
+    @media only screen and (max-width: $tablet) {
+        padding-bottom: 90px;
+    }
+}
+
+.feedback_title{
+    margin-bottom: 38px;
+
+    @media only screen and (max-width: $tablet) {
+        margin-bottom: 19px;
+    }
+}
+
+.feedback_form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+
+    @media only screen and (max-width: $tablet) {
+        grid-template-columns: 1fr;
+    }
+}
+

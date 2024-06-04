@@ -1,0 +1,54 @@
+.cta {
+    padding: 180px 0;
+
+    background: linear-gradient(
+        180deg,
+        #242b33 10.42%,
+        rgba(36, 43, 51, 0) 50.52%,
+        #242b33 90.1%
+    ),
+    linear-gradient(0deg, rgba(36,43, 51, 0.9), rgba(36,43, 51, 0.9)), 
+    url('./../../img/houses/Rectangle.png'), 
+    #c4c4c4;
+
+    @media only screen and (max-width: $tablet) {
+        padding: 60px 0;
+    }
+}
+
+.cta_title {
+    margin-bottom: 17px;
+
+}
+
+.cta_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    @media only screen and (max-width: $tablet) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.cta_text {
+    line-height: 1.5;
+
+    p + p {
+        margin-top: 1em;
+    }
+
+    @media only screen and (max-width: $tablet) {
+        font-size: 14px;
+    }
+}
+
+.cta_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 30px;
+
+    @media only screen and (max-width: $tablet) {
+        grid-template-columns: 1fr;
+    }
+}
